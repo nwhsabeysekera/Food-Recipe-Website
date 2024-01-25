@@ -1,5 +1,5 @@
 # Food-Recipe-Website
-This Food Recipe Website is a platform dedicated to sharing and exploring various recipes that can be made in veri interesting way.
+This Food Recipe Website is a platform dedicated to sharing and exploring various recipes that can be made in very interesting way.
 
 ## Introduction
 The Food Recipe Website aims to provide many recipes for users to prepare delicious meals.
