@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biscuit Pudding Recipe</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.jpg" alt="Simply Recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-5.jpg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Biscuit Pudding</h2>
+            <p>
+              Biscuit Pudding is a delightful dessert that layers biscuits 
+              with a creamy custard and chocolate sauce. This no-bake pudding 
+              is simple to make and requires minimal ingredients. Enjoy the 
+              rich, indulgent flavors of this classic biscuit pudding for a 
+              sweet treat that's sure to satisfy your dessert cravings.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>10 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>chill time</h5>
+                <p>4 hours</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>12 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+                Tags : <a href="tag-template-1.html">meat</a>
+                <a href="tag-template-2.html">pancakes</a>
+                <a href="tag-template-3.html">soup</a>
+                <a href="tag-template-4.html">food</a>
+              </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                In a bowl, mix together sweetened condensed milk and 
+                vanilla extract. Set aside.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Dip each biscuit in strong coffee or a coffee-milk mixture 
+                and arrange a layer of dipped biscuits in the bottom of 
+                a serving dish.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Spread a portion of the condensed milk mixture over the 
+                biscuits, creating a smooth layer.
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 4</p>
+                <div></div>
+              </header>
+              <p>
+                Sprinkle a layer of crushed nuts and chocolate chips over 
+                the condensed milk layer.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 5</p>
+                <div></div>
+              </header>
+              <p>
+                Repeat the layers until all the ingredients are used, 
+                finishing with a layer of chocolate sauce on top.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">2 cups sweetened condensed milk</p>
+              <p class="single-ingredient">1 teaspoon vanilla extract</p>
+              <p class="single-ingredient">24 to 30 tea biscuits</p>
+              <p class="single-ingredient">1 cup strong coffee or coffee-milk mixture</p>
+              <p class="single-ingredient">Crushed nuts (walnuts or almonds)</p>
+              <p class="single-ingredient">Chocolate chips</p>
+              <p class="single-ingredient">Chocolate sauce</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Mixing bowl</p>
+              <p class="single-tool">Serving dish</p>
+              <p class="single-tool">Coffee maker or kettle</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Culinary Land</span> Built by
+        HSA
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

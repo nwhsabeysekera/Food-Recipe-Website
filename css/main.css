@@ -136,7 +136,7 @@ ul {
 .btn {
   cursor: pointer;
   color: var(--white);
-  background: var(--primary-500);
+  background: #800080;
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -281,6 +281,7 @@ Navbar
 .nav-logo {
   display: flex;
   align-items: flex-end;
+  margin-top: 20px;
 }
 
 .nav-btn {
@@ -290,12 +291,19 @@ Navbar
   font-size: 1.25rem;
 }
 .nav-links {
+  margin-left: 15px;
   height: 0;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   transition: var(--transition);
+  font-family:monospace;
+  font-weight: 300;
 }
+.nav-links .nav-link{
+  color: #800080;
+}
+
 .show-links {
   height: 23.9375rem;
 }
@@ -401,7 +409,7 @@ Hero
 */
 
 .hero {
-  height: 40vh;
+  height: 70vh;
   position: relative;
   margin-bottom: 2rem;
   background: url('../assets/main.jpeg') center/cover no-repeat;
@@ -416,12 +424,22 @@ Hero
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust the last value (0.5) for transparency */
+  color: white; 
   border-radius: var(--borderRadius);
 }
 .hero-text {
   color: var(--white);
   text-align: center;
+}
+
+.hero p{
+  margin-top: 65px;
+}
+.hero h4{
+  background-image: linear-gradient(45deg, #FFD700, #800080, #FFA500);
+  -webkit-background-clip: text; /* Clip the text to the background gradient */
+  color: transparent;
 }
 
 @media only screen and (min-width: 768px) {
@@ -446,6 +464,10 @@ Recipes
   display: grid;
   gap: 2rem 1rem;
   padding-bottom: 3rem;
+}
+.recipes-list a:hover{
+  background-color: rgba(255, 255, 255, 0);
+  filter: brightness(70%);
 }
 .tags-container {
   order: 1;
@@ -665,7 +687,7 @@ Recipe Template
 }
 .recipe-icons i {
   font-size: 1.5rem;
-  color: var(--primary-500);
+  color: #800080;
 }
 .recipe-icons h5,
 .recipe-icons p {
@@ -684,7 +706,7 @@ Recipe Template
   font-weight: 600;
 }
 .recipe-tags a {
-  background: var(--primary-500);
+  background: #800080;
   border-radius: var(--borderRadius);
   color: var(--white);
   padding: 0.05rem 0.5rem;
@@ -716,7 +738,7 @@ Recipe Template
 .single-instruction header p {
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--primary-500);
+  color: #800080;
   margin-bottom: 0;
 }
 .single-instruction > p {
@@ -741,6 +763,6 @@ Recipe Template
 .single-tool {
   border-bottom: 2px solid var(--grey-300);
   padding-bottom: 0.75rem;
-  color: var(--primary-500);
+  color: #800080;
   text-transform: capitalize;
 }
